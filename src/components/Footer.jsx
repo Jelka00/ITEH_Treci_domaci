@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='flex flex-col space-y-3'>
           <h1>Informacije</h1>
            <a className='text-sm text-gray-400' >O nama</a>
-           <a className='text-sm text-gray-400' >Najpopularniji recepti</a>
+           <a className='text-sm text-gray-400' >Najpopularnijе staze</a>
            <a className='text-sm text-gray-400' >Servisi</a>
            <a className='text-sm text-gray-400' >Blog</a>
         </div>

@@ -13,71 +13,71 @@ function App() {
 
     {
         id:1,
-        naziv:"Čokoladna torta",
-        slika: "https://podravkaiovariations.blob.core.windows.net/3fd5067a-6423-11eb-94c1-0242ac120021/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-        opis:" Jednostavna čokoladna torta za sve prilike koja će vas oduševiti.",
-        vreme: 60,
+        naziv:"Pancicev vrh",
+        slika: "https://www.infokop.net/mambots/content/multithumb/images/b.800.600.0.1.stories.staze.04.dsc02434.jpg",
+        opis:" Žičara je tipa četvorosed sa sklopivim sedištima. Dužine trase je 1.393 m, visinska razlika 248 m, a kapacitet je 1.800 skijaša na sat. Postavljena je na mestu i trasi najstarije žičare jednoseda na Kopaoniku.",
+        vreme: "10 min",
         izabraneStaze:0
         
          
     },
     {
       id:2,
-      naziv:"Bajadere",
-      slika: "https://podravkaiovariations.blob.core.windows.net/bc65da46-63e4-11eb-bab5-0242ac12002b/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-      opis:" Bajedere po receptu naših baka.Probajte i uverite se sami!",
-      vreme: 45,
+      naziv:"Karaman greben",
+      slika: "https://www.infokop.net/mambots/content/multithumb/images/b.800.600.0.1.stories.staze.07.dsc02294.jpg",
+      opis:"Staze sa obe strane žičare idealne za početnike i osrednje skijaše.Po izlasku sa žičare, sa leve staze odvaja prelazna staza prema žičari br.8 Mali Karaman.",
+      vreme: "15 min",
       izabraneStaze:0
 
     },      
     {
         id:3,
-        naziv:"Rocher praline",
-        slika:"https://podravkaiovariations.blob.core.windows.net/8410ae4a-6421-11eb-bb8b-0242ac120042/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-        opis:" Jednostavan recept idealan za početnike.",
-        vreme: 55,
+        naziv:"Suncana dolina",
+        slika:"https://www.kopaoniksmestaj.rs/assets/img/suncana-dolina-1.jpg",
+        opis:" Ove staze počinju iznad vrha Krst na 1715mnv i spuštaju se do samog magistralnog puta za Vikend naselje i Rudnicu.",
+        vreme: "12 min",
         izabraneStaze:0
     },
     {
       id:4,
-      naziv:"Tart od karamele i kikirikija",
-      slika: "https://podravkaiovariations.blob.core.windows.net/b70163d4-6187-11ed-ab21-da76589037d6/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-      opis:" Tart za koji Vam je potrebno samo 40 minuta.",
-      vreme: 40,
+      naziv:"Duboka I",
+      slika: "https://www.infokop.net/mambots/content/multithumb/images/b.800.600.0.1.stories.staze.06.dsc01764.jpg",
+      opis:" Vodi iz Duboke (1.595m) do Suvog rudišta (1.976m). Ovo je jedina žičara na Kopaoniku koja ima krivinu u trasi i na njoj međustanicu.",
+      vreme: "8 min",
       izabraneStaze:0
     },
     {
       id:5,
-      naziv:"Gibanica koja se najlakše pravi",
-      slika: "https://podravkaiovariations.blob.core.windows.net/640ebfd8-6421-11eb-ab73-0242ac120058/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-      opis:" Recept za gibanicu idealan za početnike.",
-      vreme: 120,
+      naziv:"Krst",
+      slika: "https://www.infokop.net/mambots/content/multithumb/images/b.800.600.0.1.stories.staze.02.Krst1.JPG",
+      opis:" Nov četvorosed Krst opslužuje dve staze. Desna staza je po kategorizaciji laka i idealna je za prve skijaške korake. Leva staza je pretvorena u Snow park.",
+      vreme: "15 min",
       izabraneStaze:0
 
     }, 
     {
       id:6,
-      naziv:"Domaci burek kao iz pekare",
-      slika: "https://podravkaiovariations.blob.core.windows.net/cdce5412-63cf-11eb-a5d7-0242ac12005a/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-      opis:" Najbrži recept za burek od gotovih kora.",
-      vreme: 120,
+      naziv:"Ledenice I",
+      slika: "https://www.infokop.net/images/stories/staze/18/Ledenice3.jpg",
+      opis:" Crna – Teška i spušta se sa vrha Ledenice. Poslednjih godina se sneg na njoj ne taba, pa je pogodna za dobre skijaše koji vole skijanje po dubokom snegu",
+      vreme: "7 min",
       izabraneStaze:0
 
     },
     {
       id:7,
-      naziv:"Piletina sa susamom",
-      slika: "https://podravkaiovariations.blob.core.windows.net/7a7175f6-259e-11ec-af17-2a8316b4add6/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-      opis:" Piletina sa susamom kao iz restorana. Brzo i jednostavno!",
-      vreme: 100,
+      naziv:"Krcmar",
+      slika: "https://www.infokop.net/mambots/content/multithumb/images/b.800.600.0.1.stories.vesti.2015.zima.20150113k.20150113_141056.jpg",
+      opis:"U sezoni 2019/2020. izgrađena je još jedna staza na lokaciji Krčmar sa oznakom 21a, koje je paralelna sa postojećom stazom 21.",
+      vreme: "10 min",
       izabraneStaze:0
     },  
     {
       id:8,
-      naziv:"Slani rolati",
-      slika: "https://podravkaiovariations.blob.core.windows.net/e95a3056-63e4-11eb-a4ea-0242ac120051/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
-      opis:" Slani rolati idealni za slavlja i za svaki dan.",
-      vreme: 150,
+      naziv:"Gobelja",
+      slika: "https://www.infokop.net/mambots/content/multithumb/images/b.800.600.0.1.stories.staze.12.dsc01491.jpg",
+      opis:" Sa šest staza jasno obeležnih i trasiranih (3 crvene, 2 crnei i 1 plavom) i prostranim delom za off piste Gobelja se izdvaja kao sasvim novo skijalište.",
+      vreme: "15 min",
       izabraneStaze:0
 
     },
