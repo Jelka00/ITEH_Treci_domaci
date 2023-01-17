@@ -28,14 +28,14 @@ const Footer = () => {
         </div>
         <div className='flex flex-col space-y-3'>
         <h1>Kontakt</h1>
-          <a className='text-sm text-gray-400' > Podravka d.d.</a>
-          <a className='text-sm text-gray-400' >Ante Starčevića 32</a>
-          <a className='text-sm text-gray-400' >48 000 Koprivnica</a>
-          <a className='text-sm text-gray-400' >+385 48 651 144</a>
+          <a className='text-sm text-gray-400' > JP Skijalista Srbije</a>
+          <a className='text-sm text-gray-400' >Milutina Milankovica 9</a>
+          <a className='text-sm text-gray-400' >11 070 Novi Beograd</a>
+          <a className='text-sm text-gray-400' >+381 48 651 144</a>
         </div>
       </div>
       <div className='border-t py-2'>
-        <p> &copy;2022 <span className='font-bold'>Elab</span> All Rights Reserved</p>
+        <p> &copy;2023 <span className='font-bold'>Elab</span> All Rights Reserved</p>
       </div>
     </footer>
   )

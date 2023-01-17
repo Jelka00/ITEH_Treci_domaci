@@ -10,8 +10,8 @@ const Navbar = ({pretrazi}) => {
         <div className="nav-elements">
           <ul>
           <li><Link className="link" to='/'>Početna</Link></li>
-            <li><Link className="link" to='/recepti'>Slatki i slani recepti</Link></li>
-            <li><Link className="link" to='/izabrani'>Šta da kuvam danas?</Link></li>
+            <li><Link className="link" to='/staze'>Staze na Kopaoniku</Link></li>
+            <li><Link className="link" to='/izabrani'>Omiljene staze</Link></li>
 
           
             <li><input type="text" id="kriterijum" placeholder="Pretraži" name="search" 

@@ -1,14 +1,14 @@
 import Card from "./Card";
 
-function Recepti({recepti,kriterijum,dodaj}) {
+function Staze({staze,kriterijum,dodaj}) {
     return (
     <div className="row">
         {kriterijum===""
         ?
-        recepti.map((r)=> <div  key={r.id} ><Card dodaj={dodaj} key={r.id} r={r} mod={1}></Card><br /></div>)
+        staze.map((r)=> <div  key={r.id} ><Card dodaj={dodaj} key={r.id} r={r} mod={1}></Card><br /></div>)
         :
         <>
-        {recepti
+        {staze
         .filter((r)=>r.naziv.toLowerCase().includes(kriterijum.toLowerCase()))
         .map((r)=> <div  key={r.id} ><Card dodaj={dodaj}  key={r.id} r={r} mod={1}></Card><br /></div>)}
 
@@ -19,4 +19,4 @@ function Recepti({recepti,kriterijum,dodaj}) {
     );
   }
   
-  export default Recepti;
+  export default Staze;

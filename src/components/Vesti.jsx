@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './Hero'
-const Products = () => {
+const Vesti = () => {
   return (
     <div  className='pocetna'>
       <Hero/>
@@ -46,4 +46,4 @@ const Products = () => {
   )
 }
 
-export default Products
+export default Vesti
